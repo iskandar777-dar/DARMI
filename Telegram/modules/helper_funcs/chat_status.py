@@ -338,7 +338,7 @@ def can_promote(func):
         message_chat_title = update.effective_message.chat.title
 
         if update_chat_title == message_chat_title:
-            cant_promote = "Saya tidak dapat mempromosikan/menurunkan orang di sini!\nPastikan saya adalah admin dan dapat menunjuk admin baru."      
+            cant_promote = "Saya tidak dapat mempromosikan/menurunkan orang di sini!\nPastikan saya adalah admin dan dapat menunjuk admin baru."
         else:
             cant_promote = (
                 f"Saya tidak dapat mempromosikan/menurunkan orang <b>{update_chat_title}</b>!\n"
