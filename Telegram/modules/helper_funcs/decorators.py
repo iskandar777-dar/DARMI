@@ -94,7 +94,7 @@ class AnieTelegramHandler:
         return _inlinequery
 
 
-darid = AnieTelegramHandler(d).command
-darmsg = AnieTelegramHandler(d).message
-darcallback = AnieTelegramHandler(d).callbackquery
-darinline = AnieTelegramHandler(d).inlinequery
+zaidid = AnieTelegramHandler(d).command
+zaidmsg = AnieTelegramHandler(d).message
+zaidcallback = AnieTelegramHandler(d).callbackquery
+zaidinline = AnieTelegramHandler(d).inlinequery
