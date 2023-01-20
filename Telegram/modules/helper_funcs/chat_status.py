@@ -362,7 +362,8 @@ def can_restrict(func):
         message_chat_title = update.effective_message.chat.title
 
         if update_chat_title == message_chat_title:
-            cant_restrict = "Saya tidak dapat membatasi orang di sini!\nPastikan saya adalah admin dan dapat membatasi pengguna."        else:
+            cant_restrict = "Saya tidak dapat membatasi orang di sini!\nPastikan saya adalah admin dan dapat membatasi pengguna."        
+        else:
             cant_restrict = f"Saya tidak bisa membatasi orang masuk <b>{update_chat_title}</b>!\nPastikan saya admin di sana dan " \
                             f"dapat membatasi pengguna. "
 
